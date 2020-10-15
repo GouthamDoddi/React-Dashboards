@@ -1,0 +1,12 @@
+.card {
+    border-radius:50px ;
+    text-align: center;
+}
+
+.card:hover {
+    background-color:lightseagreen;
+}
+
+.cardlist{
+    margin-top: 20px;
+}

@@ -2,7 +2,8 @@ import React from 'react'
 import { Layout } from 'antd';
 import Navbar from "../navbar"
 import Navbar2 from "../navbar2"
-import Sider from './Slider'
+import Menulist from './Slider'
+import Cards from '../cards';
 
 const { Header, Footer, Content } = Layout;
 
@@ -16,13 +17,12 @@ function LayOut1() {
     
       </Header>
       <Layout>
-        <Sider>
-        <Sider />
-        </Sider>
+        
+       
 
 
         <Content>
-        Content
+        <Cards />
         </Content>
 
 
