@@ -1,13 +1,11 @@
 import Sider from 'antd/lib/layout/Sider';
 import React from 'react'
-import { Layout, Menu } from 'antd';
-
+import { ProSidebar, Menu, MenuItem, SubMenu } from 'react-pro-sidebar';
 
 function Slider() {
     return (
         <div>
-          <Layout>
-<Sider>
+<Sider/>
 <Menu theme="dark" mode="inline" defaultSelectedKeys={['4']}>
         <Menu.Item key="1">
           nav 1
@@ -22,8 +20,6 @@ function Slider() {
           nav 4
         </Menu.Item>
       </Menu>
-      </Sider>
-      </Layout>
         </div>
     )
 }
