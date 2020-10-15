@@ -1,13 +1,16 @@
+
 import React from 'react';
 
-
+import Layout from './Components/Layout/Dashboard'
 import './App.css';
-import Navbar from './Components/navbar';
+
 
 function App() {
   return (
-   <div >
-     <Navbar />
+   
+    <div>
+   <Layout />
+
    </div>
   );
 }
