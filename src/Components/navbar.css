@@ -1,0 +1,30 @@
+.nav {
+   display: flex;
+
+   justify-content: space-between;
+
+
+}
+
+.search {
+    display: flex;
+    margin-left: 10%;
+    width: 20%;
+   
+}
+
+.searchbar {
+    border-radius: 50px;
+}
+
+.search_icon {
+    padding-top: 9px;
+}
+
+.icons {
+    margin-right: 10%;
+}
+
+
+
+
